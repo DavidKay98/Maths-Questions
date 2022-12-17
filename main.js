@@ -27,6 +27,33 @@ console.log(myCountry);
 //Exercise 2: String Length
 console.log(myCountry.length);
 
+
+//Exercise 3: Upper Case
+let favouriteFood = "pizza";
+console.log(favouriteFood.toUpperCase());
+
+
+//Exercise 4: Lower Case
+console.log(favouriteFood.toLowerCase());
+
+
+//Exercise 5: Concatenation
+let myName = "Dave";
+let myAge = 24;
+let myMessage = "Hello my name is " + myName + " and I am " + myAge + " years old.";
+console.log(myMessage);
+console.log(myMessage += " What is your name?");
+
+//Exercise 6: Template Literals
+let firstName = "Dave";
+let lastName = "Kay";
+let fullName = `${firstName} ${lastName}`;
+console.log(fullName);
+let welcomeMessage = `Welcome ${firstName} ${lastName},
+
+How can I help you?`;
+console.log(welcomeMessage);
+
 //.length experimenting
 let message = "hi world";
 console.log(message.length);
